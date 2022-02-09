@@ -1,0 +1,29 @@
+extends ../layout/index
+block slider 
+  .slider 
+    h1 Rio de Jenero
+    em adventure
+block content
+    main.container.mt-5 
+      h2.text-center.mb-5 About Us
+      .row.mb-5 
+        .col-md-6 
+          p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum aut facilis, tempore temporibus, provident quasi ut quos exercitationem atque vitae, ullam blanditiis inventore ipsam recusandae eum officia! Deleniti, expedita quo.
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio impedit doloribus similique ut, voluptatum obcaecati non asperiores dolor! Dolore eveniet sed necessitatibus mollitia cumque ut itaque omnis nihil cum. Voluptate.
+        .col-md-6 
+          img.img-fluid(src="/img/about_home.jpg", alt="About Us Image")
+      .conatiner.mb-2 
+        h2.text-center.mb-2 Upcoming Travels
+        include ../layout/partials/travels
+    .discount 
+      .container 
+        .row 
+          .col-md-6
+            .content 
+              h3 5% Off 
+              p.title Travel to Cananda
+              p.date 20Th August 2021 - 28th August 2022
+              p.price $2,500 USD
+    .container
+      h2.text-center.my-5 TESTIMONIALS
+      include ../layout/partials/testimonials
